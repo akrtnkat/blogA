@@ -1,0 +1,155 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper {
+  background-image: url("top.jpg");
+  background-size:cover;
+  background-position: bottom;
+  text-align:center;
+  height: 600px;
+}
+
+.top-container {
+  width:1170px;
+  margin:0 auto;
+}
+
+.top-container h1 {
+  padding-top:350px;
+  font-size:45px;
+  letter-spacing:3px;
+  color:white;
+  opacity:0.7;
+}
+
+.top-container p {
+  color:white;
+  opacity:0.7;
+  padding: 20px 0 20px 0;
+}
+
+
+header {
+  background-color:rgba(34, 49, 52, 0.9);
+  height: 40px;
+  position:absolute;
+  top:0;
+  width:100%;
+  position:fixed;
+  z-index:10;
+}
+
+.header-container {
+  width:1170px;
+  margin:0 auto;
+}
+
+.header-left p {
+  width:100px;
+  float:left;
+  color: white;
+  font-size: 20px;
+  opacity:0.7;
+  letter-spacing: 3px;
+  line-height:40px;
+}
+
+.header-contents a {
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
+  padding: 0 25px;
+  line-height:40px;
+  float:left;
+}
+
+.header-contents a:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
+  padding: 0 25px;
+  line-height:40px;
+  float:right;
+}
+
+.header-right a:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.lesson-wrapper {
+  background-color:#f7f7f7;
+  height:400px;
+  text-align:center;
+}
+
+.lesson-container {
+  width:1170px;
+  margin:0 auto;
+  padding-top:50px;
+}
+
+.lesson {
+  width:33%;
+  float:left;
+}
+
+.lesson-icon {
+  position:relative;
+}
+
+.lesson-icon p {
+  position:absolute;
+  top:90px;
+  width:100%;
+  color:white;
+}
+
+.lesson-text {
+  color:#b3aeb5;
+  font-size:13px;
+  width:80%;
+  margin:0 auto;
+}
+
+footer {
+  border-top:1px solid #eee;
+}
+
+.footer-container {
+  width:1170px;
+  margin:0 auto;
+}
+
+.footer-logo {
+  color:#b3aeb5;
+  font-size: 20px;
+  opacity:0.7;
+  letter-spacing: 3px;
+  margin-top:10px
+}
+
+.footer-text {
+  color:#b3aeb5;
+  margin-bottom:30px;
+  font-size:12px;
+}
